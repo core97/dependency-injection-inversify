@@ -25,7 +25,7 @@ export class UserService {
     return result;
   }
 
-  async getByEmailOrTrhow(email: string) {
+  async getByEmailOrThrow(email: string) {
     const result = await this.userRepo.findOneByEmail(email);
 
     if (!result) {
