@@ -1,0 +1,35 @@
+{
+  "ts-node": {
+    "compilerOptions": {
+      "baseUrl": ".",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "module": "CommonJS",
+      "types": ["reflect-metadata"],
+      "paths": {
+        "@/*": ["src/*"]
+      }
+    }
+  },
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": true,
+    "declarationMap": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "inlineSources": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "outDir": "dist",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "ESNext",
+    "types": ["reflect-metadata"]
+  }
+}

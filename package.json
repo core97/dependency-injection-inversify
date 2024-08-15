@@ -1,0 +1,30 @@
+{
+  "name": "dependency-injection-inversify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "execute:ts": "npx ts-node -r tsconfig-paths/register"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.1.0",
+    "prettier": "^3.3.3",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "inversify": "^6.0.2",
+    "reflect-metadata": "^0.2.2",
+    "unique-names-generator": "^4.7.1"
+  },
+  "prettier": {
+    "endOfLine": "crlf",
+    "printWidth": 100,
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 2 
+  }
+}
