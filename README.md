@@ -137,5 +137,10 @@ const casoDeUso: CrearUsuario = new CrearUsuario(repositorio);
 // Uso
 const nuevoUsuario = casoDeUso.ejecutar("Juan", 30);
 console.log(nuevoUsuario);
-
 ```
+
+## FAQ
+
+### ¿Como puedo hacer un prueba?
+
+Dentro de la carpeta scripts hay un caso de uso de crear usuario. Para ejecutarlo lo hacemos con el siguiente comando: ```npm run execute:ts -- scripts/create-user.ts```.
